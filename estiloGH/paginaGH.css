@@ -1,0 +1,361 @@
+/* paginaGH.css */
+
+:root {
+    --cor0: #8d8d8d;
+    --cor1: #01050A;
+    --cor2: #0D1117;
+    --cor3: #161B22;
+    --cor4: #21262D;
+    --cor5: #30363D;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor4));
+    padding-top: 30px;
+    min-height: 80px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    font-size: 3em;
+    color: white;
+}
+
+nav {
+    background-color: var(--cor4);
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+    padding: 10px;
+}
+  
+nav a {
+    color: var(--cor0);
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+  
+nav a:hover {
+    background-color: var(--cor0);
+    color: var(--cor1);
+}
+
+#perfil {
+    background-color: white;
+    box-shadow: 03px 03px 10px rgba(0, 0, 0, 0.363);
+    padding: 15px;
+    height: 517px;
+    width: 220px;
+}
+
+h2 {
+    background-image: linear-gradient(to right, var(--cor0), var(--cor0), var(--cor2));
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 3.5px;
+}
+
+p {
+    font-size: 17px;
+    text-align: justify;
+    margin: 15px 0px;
+}
+
+aside {
+    background-color: var(--cor0);
+    border-radius: 3px;
+}
+
+aside p {
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+    font-size: 12pt;
+    position: relative;
+    padding: 5px;
+    padding-bottom: 20px;
+    bottom: -3px;
+}
+
+footer a {
+    color: var(--cor1);
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 3px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+footer a:hover {
+    background-color: var(--cor1);
+    text-decoration: none;
+    color: var(--cor0);
+}
+
+hr {
+    width: 220px;
+}
+
+#linkp {
+    text-align: justify;
+    font-size: 16px;
+    padding: 5px;
+}
+
+#linkp a {
+    color: var(--cor1);
+    font-weight: bold;
+    border-radius: 3px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+#linkp a:hover {
+    text-decoration: underline;
+    color: var(--cor0);
+}
+
+main {
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    max-width: 900px;
+    min-width: 700px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 15px;
+    height: 506px;
+    margin: auto;
+    left: 50%;
+    top: 60.9%;
+}
+
+main h2 {
+    background-image: linear-gradient(to right, var(--cor0), var(--cor2));
+    margin-bottom: 30px;
+    text-align: left;
+    padding: 5px;
+}
+
+main ul {
+    columns: 2;
+}
+
+#HTML {
+    background-image: linear-gradient(to right, var(--cor7), var(--cor6));
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.418);
+    transform: translate(-0%, -10%);
+    padding: 10px;
+    height: 80px;
+    width: 320px;
+}
+
+#HTML a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#HTML a:hover {
+    text-decoration: underline;
+    color: var(--cor0);
+}
+
+#Android {
+    background-image: linear-gradient(to right, var(--cor14), var(--cor11));
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.418);
+    transform: translate(-0%, -10%);
+    padding: 10px;
+    height: 80px;
+    width: 320px;
+}
+
+#Android a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#Android a:hover {
+    text-decoration: underline;
+    color: var(--cor0);
+}
+
+#Cordel {
+    background-image: linear-gradient(to right, var(--cor15), var(--cor1));
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.418);
+    transform: translate(-0%, -10%);
+    padding: 10px;
+    height: 80px;
+    width: 320px;
+}
+
+#Cordel a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#Cordel a:hover {
+    text-decoration: underline;
+    color: var(--cor5);
+}
+
+#cl {
+    color: var(--cor0);
+}
+
+#RSocial {
+    background-image: linear-gradient(to right, var(--cor20), var(--cor18));
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.418);
+    transform: translate(-0%, -10%);
+    padding: 10px;
+    height: 80px;
+    width: 320px;
+}
+
+#RSocial a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#RSocial a:hover {
+    text-decoration: underline;
+    color: var(--cor0);
+}
+
+#Login {
+    background-image: linear-gradient(to right, var(--cor22), var(--cor21));
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.418);
+    transform: translate(-0%, -10%);
+    padding: 10px;
+    height: 80px;
+    width: 320px;
+}
+
+#Login a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#Login a:hover {
+    text-decoration: underline;
+    color: var(--cor0);
+}
+
+#Pedidos {
+    background-image: linear-gradient(to right, var(--cor26), var(--cor28));
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.418);
+    transform: translate(-0%, -10%);
+    padding: 10px;
+    height: 80px;
+    width: 320px;
+}
+
+#Pedidos a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#Pedidos a:hover {
+    text-decoration: underline;
+    color: var(--cor5);
+}
+
+#JS {
+    background-image: linear-gradient(to right, var(--cor29), var(--cor33));
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.418);
+    transform: translate(-0%, -10%);
+    padding: 10px;
+    height: 80px;
+    width: 320px;
+}
+
+#JS a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#JS a:hover {
+    text-decoration: underline;
+    color: var(--cor5);
+}
+
+#jpt {
+    color: var(--cor0);
+}
+
+#Lista {
+    background-image: linear-gradient(to right, var(--cor34), var(--cor2));
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.418);
+    transform: translate(-0%, -10%);
+    padding: 10px;
+    height: 80px;
+    width: 320px;
+}
+
+#Lista a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#Lista a:hover {
+    text-decoration: underline;
+    color: var(--cor0);
+}
+
+#plv {
+    color: var(--cor0);
+}

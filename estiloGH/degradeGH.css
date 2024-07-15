@@ -1,0 +1,54 @@
+/* degradêGH.css */
+
+:root {
+    /* #HTML */
+    --cor6: #F29188;
+    --cor7: #F25430;
+    --cor8: #F24535;
+
+    /* #Android */
+    --cor9: #c5ebd6;
+    --cor10: #83e1ad;
+    --cor11: #3ddc84;
+    --cor12: #2fa866;
+    --cor13: #1a5c37;
+    --cor14: #063d1e;
+
+    /* #Cordel */
+    --cor15: #A8A476;
+
+    /* #RSocial */
+    --cor16: #925167;
+    --cor17: #e14053;
+    --cor18: #D5292E;
+    --cor19: #8F0D21;
+    --cor20: #651427;
+
+    /* --cor16: #BB1D71;
+    --cor17: #8F0D21;
+    --cor18: #D5292E;
+    --cor19: #E0263D;
+    --cor20: #651427; */
+
+    /* #Login */
+    --cor21: #49a09d;
+    --cor22: #5f2c82;
+
+    /* #Pedidos */
+    --cor23: #c8d1f2;
+    --cor24: #0B1654;
+    --cor25: #33395D;
+    --cor26: #8591D4;
+    --cor27: #AE91D4;
+    --cor28: #d65f71;
+
+    /* #JS */
+    --cor29: #F2CF1D;
+    --cor30: #BFA41B;
+    --cor31: #8C7811;
+    --cor32: #594C0B;
+    --cor33: #0D0D0D;
+
+    /* #Lista */
+    --cor34: #025940;
+}
