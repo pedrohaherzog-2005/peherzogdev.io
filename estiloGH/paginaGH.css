@@ -157,6 +157,7 @@ main {
 main h2 {
     background-image: linear-gradient(to right, var(--cor0), var(--cor2));
     margin-bottom: 30px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.193);
     text-align: left;
     padding: 5px;
 }
